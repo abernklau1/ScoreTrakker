@@ -23,6 +23,9 @@ public class Student implements Comparable<Student>{
         return this.name+" "+this.score;
     }
 
+    /*
+        Functions identically to the java compareTo for strings but instead is for student scores.
+    */
 	@Override
 	public int compareTo(Student student) {
 		if(this.score == student.score){
